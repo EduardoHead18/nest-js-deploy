@@ -9,6 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo "upload actions 😎"
+        uses: actions/checkout@v2 
 
       - name: Install dependencies
         run: npm i
