@@ -21,7 +21,7 @@ describe('AppController', () => {
   });
 
   describe('users', () => {
-    it('should return "Array data users"', () => {
+    it('should return "Array data users,"', () => {
       const responseExpect = [{ name: 'edu', email: 'kratosedu18@gmail.com', numbers:[1,2,3,4] }]
       expect(appController.getUser()).toEqual(responseExpect);
     });
